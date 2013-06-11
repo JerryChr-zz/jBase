@@ -12,19 +12,65 @@
         <filename>index.php</filename>
         <filename>templateDetails.xml</filename>
         <filename>favicon.ico</filename>
-        <filename>css/styles.css</filename>
+        <filename>css/normalize.css</filename>
         <filename>img/glyphicons-halflings.png</filename>
         <filename>img/glyphicons-halflings-white.png</filename>
         <filename>js/jquery-1.9.1.min.js</filename>
+        <filename>js/bootstrap.min.js</filename>
         <filename>js/less.js</filename>
         <filename>js/modernizr.min.js</filename>
         <filename>js/scripts.js</filename>
-        <filename>less/styles.less</filename>
         <filename>pie/PIE.htc</filename>
         <filename>pie/PIE.js</filename>
         <filename>pie/PIE.php</filename>
         <filename>pie/PIE_uncompressed.htc</filename>
         <filename>pie/PIE_uncompressed.js</filename>
+        <filename>less/styles.less</filename>
+        <filename>less/bootstrap.less</filename>
+        <filename>less/mixins.less</filename>
+        <filename>less/template.less</filename>
+        <filename>less/variables.less</filename>
+        <filename>bootstrap/accordion.less</filename>
+        <filename>bootstrap/alerts.less</filename>
+        <filename>bootstrap/bootstrap.less</filename>
+        <filename>bootstrap/breadcrumbs.less</filename>
+        <filename>bootstrap/button-groups.less</filename>
+        <filename>bootstrap/buttons.less</filename>
+        <filename>bootstrap/carousel.less</filename>
+        <filename>bootstrap/close.less</filename>
+        <filename>bootstrap/code.less</filename>
+        <filename>bootstrap/component-animations.less</filename>
+        <filename>bootstrap/dropdowns.less</filename>
+        <filename>bootstrap/forms.less</filename>
+        <filename>bootstrap/grid.less</filename>
+        <filename>bootstrap/hero-unit.less</filename>
+        <filename>bootstrap/labels-badges.less</filename>
+        <filename>bootstrap/layouts.less</filename>
+        <filename>bootstrap/media.less</filename>
+        <filename>bootstrap/mixins.less</filename>
+        <filename>bootstrap/modals.less</filename>
+        <filename>bootstrap/navbar.less</filename>
+        <filename>bootstrap/navs.less</filename>
+        <filename>bootstrap/pager.less</filename>
+        <filename>bootstrap/pagination.less</filename>
+        <filename>bootstrap/popovers.less</filename>
+        <filename>bootstrap/progress-bars.less</filename>
+        <filename>bootstrap/reset.less</filename>
+        <filename>bootstrap/responsive.less</filename>
+        <filename>bootstrap/responsive-767px-max.less</filename>
+        <filename>bootstrap/responsive-768px-979px.less</filename>
+        <filename>bootstrap/responsive-1200px-min.less</filename>
+        <filename>bootstrap/responsive-navbar.less</filename>
+        <filename>bootstrap/responsive-utilities.less</filename>
+        <filename>bootstrap/scaffolding.less</filename>
+        <filename>bootstrap/sprites.less</filename>
+        <filename>bootstrap/tables.less</filename>
+        <filename>bootstrap/thumbnails.less</filename>
+        <filename>bootstrap/tooltip.less</filename>
+        <filename>bootstrap/type.less</filename>
+        <filename>bootstrap/utilities.less</filename>
+        <filename>bootstrap/variables.less</filename>
+        <filename>bootstrap/wells.less</filename>
     </files>
 
 
