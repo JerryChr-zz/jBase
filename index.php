@@ -17,16 +17,12 @@ defined('_JEXEC') or die('Restricted access');
 	##########################################
 -->
 	<?php $this->setMetaData('generator','redWEB ApS – www.redweb.dk'); ?>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/normalize.css" />
 	<link rel="stylesheet/less" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/less/template.less" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/less.js" type="text/javascript"></script>
-
-<!--START Live LESS watcher / ONLY FOR DEVELOPMENT-->
-<script type="text/javascript">
-    less.watch();
-</script>
-<!--STOP Live LESS watcher / ONLY FOR DEVELOPMENT-->
-
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/modernizr.min.js" type="text/javascript"></script>
@@ -34,21 +30,31 @@ defined('_JEXEC') or die('Restricted access');
 
 </head>
 <body>
-
-<div id="wrapper">
-
-    <div class="hero-unit">
-        <h1>redBASE</h1>
-        <p>Tagline</p>
-        <p>
-            <a class="btn btn-primary btn-large">
-                Learn more
-            </a>
-        </p>
+    <!-- main container -->
+    <div class='container'>
+        <!-- header -->
+        <div class='row'>
+            <div class='span12'>Header</div>
+        </div>
+        <!-- mid container - includes main content area and right sidebar -->
+        <div class='row'>
+            <!-- main content area -->
+            <div class='span9'>
+                <jdoc:include type="modules" name="position-3" style="xhtml" />
+                <jdoc:include type="message" />
+                <jdoc:include type="component" />
+                <jdoc:include type="modules" name="position-2" style="none" />
+            </div>
+            <!-- right sidebar -->
+            <div class='span3'>
+                <jdoc:include type="modules" name="position-7" style="well" />
+            </div>
+        </div>
+        <!-- footer -->
+        <div class='row'>
+            <div class='span12'>Footer</div>
+        </div>
     </div>
-
-</div>
-
 
 </body>
 </html>
