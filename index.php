@@ -38,7 +38,7 @@ defined('_JEXEC') or die('Restricted access');
 <div id="wrapper">
 
     <div class="hero-unit">
-        <h1>Heading</h1>
+        <h1>redBASE</h1>
         <p>Tagline</p>
         <p>
             <a class="btn btn-primary btn-large">
