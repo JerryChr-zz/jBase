@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="template" client="site">
+    <name>redBASE</name>
+    <version>1.0</version>
+    <creationDate>June 2013</creationDate>
+    <author>redWEB</author>
+    <authorEmail>email@redweb.dk</authorEmail>
+    <authorUrl>www.redWEB.dk</authorUrl>
+    <copyright>redWEB</copyright>
+    <description>redBASE template by redWEB.dk</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>favicon.ico</filename>
+        <filename>css/styles.css</filename>
+        <filename>img/glyphicons-halflings.png</filename>
+        <filename>img/glyphicons-halflings-white.png</filename>
+        <filename>js/jquery-1.9.1.min.js</filename>
+        <filename>js/less.js</filename>
+        <filename>js/modernizr.min.js</filename>
+        <filename>js/scripts.js</filename>
+        <filename>less/styles.less</filename>
+        <filename>pie/PIE.htc</filename>
+        <filename>pie/PIE.js</filename>
+        <filename>pie/PIE.php</filename>
+        <filename>pie/PIE_uncompressed.htc</filename>
+        <filename>pie/PIE_uncompressed.js</filename>
+    </files>
+
+
+    <positions>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+        <position></position>
+    </positions>
+</extension>
