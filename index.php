@@ -31,7 +31,7 @@ defined('_JEXEC') or die('Restricted access');
 </head>
 <body>
 
-<!--
+
     <div class='container'>
 
         <div class='row'>
@@ -56,7 +56,7 @@ defined('_JEXEC') or die('Restricted access');
             <div class='span12'>Footer</div>
         </div>
     </div>
--->
+
 
 </body>
 </html>
