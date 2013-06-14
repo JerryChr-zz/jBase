@@ -32,31 +32,6 @@ defined('_JEXEC') or die('Restricted access');
 <body>
 
 
-    <div class='container'>
-
-        <div class='row'>
-            <div class='span12'>Header</div>
-        </div>
-
-        <div class='row'>
-
-            <div class='span9'>
-                <jdoc:include type="modules" name="position-3" style="xhtml" />
-                <jdoc:include type="message" />
-                <jdoc:include type="component" />
-                <jdoc:include type="modules" name="position-2" style="none" />
-            </div>
-
-            <div class='span3'>
-                <jdoc:include type="modules" name="position-7" style="well" />
-            </div>
-        </div>
-
-        <div class='row'>
-            <div class='span12'>Footer</div>
-        </div>
-    </div>
-
 
 </body>
 </html>
