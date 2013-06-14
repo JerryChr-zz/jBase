@@ -21,6 +21,7 @@ defined('_JEXEC') or die('Restricted access');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/normalize.css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/magic.css" />
 	<link rel="stylesheet/less" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/less/template.less" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/less.js" type="text/javascript"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.min.js" type="text/javascript"></script>
