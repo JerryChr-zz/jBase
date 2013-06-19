@@ -27,6 +27,8 @@ defined('_JEXEC') or die('Restricted access');
 <body>
 
 
+<h1>Testing this localhost github setup</h1>
+
 <?php include_once '/incl/footerJs.php'; ?>
 </body>
 </html>
