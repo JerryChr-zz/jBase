@@ -16,6 +16,12 @@ defined('_JEXEC') or die('Restricted access');
 	## Dato: 2013-06-11                     ##
 	##########################################
 -->
+    <!--Only for Development-->
+    <script type="text/javascript">
+        less.env = "development";
+        less.watch();
+    </script>
+
 	<?php $this->setMetaData('generator','redWEB ApS – www.redweb.dk'); ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +29,8 @@ defined('_JEXEC') or die('Restricted access');
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/normalize.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/magic.css" />
 	<link rel="stylesheet/less" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/less/template.less" />
+
+
 </head>
 <body>
 
