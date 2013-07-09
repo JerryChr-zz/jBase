@@ -6,3 +6,13 @@ img{
   max-width: @maxWidth;
   height: @auto;
 }
+
+@h1BG: #0e0572;
+h1 {
+  background: @h1BG;
+  border-bottom: 1px solid @h1BG + #333;
+  border-top: 1px solid @h1BG - #333;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  padding: 3px;
+}

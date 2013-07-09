@@ -16,7 +16,9 @@ defined('_JEXEC') or die('Restricted access');
 	## Dato: 2013-07-09                     ##
 	##########################################
 -->
-    <!--Only for Development
+<!--
+    // Only for Development //
+
     <script type="text/javascript">
         less.env = "development";
         less.watch();
@@ -28,11 +30,13 @@ defined('_JEXEC') or die('Restricted access');
 
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/normalize.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/magic.css" />
-	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/less/template.less" />
-    <?php include_once '/lessphp/build.php'; ?>
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" />
+    <link type="text/css" rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/lessphp/compile.php" />
 
 </head>
 <body>
+
+<h1>Testing this awesome less</h1>
 
 
 <?php include_once '/incl/footerJs.php'; ?>

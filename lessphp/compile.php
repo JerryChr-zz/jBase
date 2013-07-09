@@ -1,15 +1,9 @@
 <?php
 
-defined('_JEXEC') or die('You are not allowed to directly access this file');
-
 require_once(dirname(__FILE__) . '/lessc.inc.php');
 
-$inputFile = "template.less";
-$outputFile = "../css/styles.css";
-
-
-$inputFile = "template.less";
-$outputFile = "../css/styles.css";
+$inputFile = "../less/template.less";
+$outputFile = "../css/template.css";
 
 $less = new lessc;
 
@@ -44,7 +38,7 @@ function autoCompileLess($inputFile, $outputFile) {
     }
 }
 
-autoCompileLess('template.less', '../css/styles.css');
+autoCompileLess('../less/template.less', '../css/template.css');
 
 
 ?>
