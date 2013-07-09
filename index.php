@@ -13,27 +13,26 @@ defined('_JEXEC') or die('Restricted access');
 	## Danmark                              ##
 	## email@redweb.dk                      ##
 	## http://www.redweb.dk                 ##
-	## Dato: 2013-06-11                     ##
+	## Dato: 2013-07-09                     ##
 	##########################################
 -->
-    <!--Only for Development-->
+    <!--Only for Development
     <script type="text/javascript">
         less.env = "development";
         less.watch();
     </script>
-
+-->
 	<?php $this->setMetaData('generator','redWEB ApS – www.redweb.dk'); ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/normalize.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/magic.css" />
-	<link rel="stylesheet/less" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/less/template.less" />
-
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/less/template.less" />
+    <?php include_once '/lessphp/build.php'; ?>
 
 </head>
 <body>
-
 
 
 <?php include_once '/incl/footerJs.php'; ?>
