@@ -16,14 +16,6 @@ defined('_JEXEC') or die('Restricted access');
 	## Dato: 2013-07-09                     ##
 	##########################################
 -->
-<!--
-    // Only for Development //
-
-    <script type="text/javascript">
-        less.env = "development";
-        less.watch();
-    </script>
--->
 	<?php $this->setMetaData('generator','redWEB ApS – www.redweb.dk'); ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +28,7 @@ defined('_JEXEC') or die('Restricted access');
 </head>
 <body>
 
-<h1>Testing this awesome less</h1>
+<h1>redBASE - Testing LESS PHP compiler - It's working if I have a red background</h1>
 
 
 <?php include_once '/incl/footerJs.php'; ?>
