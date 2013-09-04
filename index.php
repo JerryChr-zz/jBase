@@ -33,6 +33,6 @@ defined('_JEXEC') or die('Restricted access');
 <h1>redBASE - Testing LESS PHP compiler - It's working if I have a red background</h1>
 
 
-<?php include_once '/incl/footerJs.php'; ?>
+<?php include_once 'incl/footerJs.php'; ?>
 </body>
 </html>
