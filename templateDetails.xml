@@ -12,29 +12,41 @@
         <filename>index.php</filename>
         <filename>templateDetails.xml</filename>
         <filename>favicon.ico</filename>
+
         <filename>css/normalize.css</filename>
-        <filename>css/magic.css</filename>
         <filename>css/template.css</filename>
+
         <filename>incl/footerJs.php</filename>
+
         <filename>img/glyphicons-halflings.png</filename>
         <filename>img/glyphicons-halflings-white.png</filename>
-        <filename>js/jquery-1.9.1.min.js</filename>
+
+        <filename>fonts/glyphicons-halflings-regular.eot</filename>
+        <filename>fonts/glyphicons-halflings-regular.svg</filename>
+        <filename>fonts/glyphicons-halflings-regular.ttf</filename>
+        <filename>fonts/glyphicons-halflings-regular.woff</filename>
+
+        <filename>js/jquery-1.10.2.min.js</filename>
         <filename>js/bootstrap.min.js</filename>
         <filename>js/modernizr.min.js</filename>
+        <filename>js/html5shiv.js</filename>
         <filename>js/scripts.js</filename>
+
         <filename>pie/PIE.htc</filename>
         <filename>pie/PIE.js</filename>
         <filename>pie/PIE.php</filename>
         <filename>pie/PIE_uncompressed.htc</filename>
         <filename>pie/PIE_uncompressed.js</filename>
+
         <filename>lessphp/compile.php</filename>
         <filename>lessphp/lessc.inc.php</filename>
+
         <filename>less/bootstrap.less</filename>
         <filename>less/mixins.less</filename>
         <filename>less/template.less</filename>
         <filename>less/variables.less</filename>
-        <filename>less/bootstrap/accordion.less</filename>
         <filename>less/bootstrap/alerts.less</filename>
+        <filename>less/bootstrap/badges.less</filename>
         <filename>less/bootstrap/bootstrap.less</filename>
         <filename>less/bootstrap/breadcrumbs.less</filename>
         <filename>less/bootstrap/button-groups.less</filename>
@@ -45,35 +57,35 @@
         <filename>less/bootstrap/component-animations.less</filename>
         <filename>less/bootstrap/dropdowns.less</filename>
         <filename>less/bootstrap/forms.less</filename>
+        <filename>less/bootstrap/glyphicons.less</filename>
         <filename>less/bootstrap/grid.less</filename>
-        <filename>less/bootstrap/hero-unit.less</filename>
-        <filename>less/bootstrap/labels-badges.less</filename>
-        <filename>less/bootstrap/layouts.less</filename>
+        <filename>less/bootstrap/input-groups.less</filename>
+        <filename>less/bootstrap/jumbotron.less</filename>
+        <filename>less/bootstrap/labels.less</filename>
+        <filename>less/bootstrap/list-group.less</filename>
         <filename>less/bootstrap/media.less</filename>
         <filename>less/bootstrap/mixins.less</filename>
         <filename>less/bootstrap/modals.less</filename>
         <filename>less/bootstrap/navbar.less</filename>
         <filename>less/bootstrap/navs.less</filename>
+        <filename>less/bootstrap/normalize.less</filename>
         <filename>less/bootstrap/pager.less</filename>
         <filename>less/bootstrap/pagination.less</filename>
+        <filename>less/bootstrap/panels.less</filename>
         <filename>less/bootstrap/popovers.less</filename>
+        <filename>less/bootstrap/print.less</filename>
         <filename>less/bootstrap/progress-bars.less</filename>
-        <filename>less/bootstrap/reset.less</filename>
-        <filename>less/bootstrap/responsive.less</filename>
-        <filename>less/bootstrap/responsive-767px-max.less</filename>
-        <filename>less/bootstrap/responsive-768px-979px.less</filename>
-        <filename>less/bootstrap/responsive-1200px-min.less</filename>
-        <filename>less/bootstrap/responsive-navbar.less</filename>
         <filename>less/bootstrap/responsive-utilities.less</filename>
         <filename>less/bootstrap/scaffolding.less</filename>
-        <filename>less/bootstrap/sprites.less</filename>
         <filename>less/bootstrap/tables.less</filename>
+        <filename>less/bootstrap/theme.less</filename>
         <filename>less/bootstrap/thumbnails.less</filename>
         <filename>less/bootstrap/tooltip.less</filename>
         <filename>less/bootstrap/type.less</filename>
         <filename>less/bootstrap/utilities.less</filename>
         <filename>less/bootstrap/variables.less</filename>
         <filename>less/bootstrap/wells.less</filename>
+
     </files>
 
 
