@@ -16,11 +16,15 @@ defined('_JEXEC') or die('Restricted access');
 	## Dato: 2013-11-25                     ##
 	##########################################
 -->
-	<?php $this->setMetaData('generator','redWEB ApS – www.redweb.dk'); ?>
+    <?php $this->setMetaData('generator','redWEB ApS – www.redweb.dk'); ?>
+    
     <jdoc:include type="head" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" />
     <link type="text/css" rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/lessphp/compile.php" />
+    
     <!--[if lt IE 9]>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/html5shiv.js" type="text/javascript"></script>
     <![endif]-->
